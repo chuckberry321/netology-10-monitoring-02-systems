@@ -28,11 +28,11 @@
 ##    - VictoriaMetrics
 ##    - Nagios
 
-  Prometheus - преимущественно Pull, в редких случаях используется Pushgateway     
-  TICK - собирает метрики, значит относится к Push модели, но может получать данные от Kapasitor по Pull модели     
-  Zabbix - гибридная, поддерживает и Push и Pull модель. Чаще используется в режиме  Push.    
-  VictoriaMetrics - гибридная    
-  Nagios - относится к Pull модели    
+  **Prometheus** - преимущественно Pull, в редких случаях используется Pushgateway     
+  **TICK** - собирает метрики, значит относится к Push модели, но может получать данные от Kapasitor по Pull модели     
+  **Zabbix** - гибридная, поддерживает и Push и Pull модель. Чаще используется в режиме  Push.    
+  **VictoriaMetrics** - гибридная    
+  **Nagios** - относится к Pull модели    
 
 ## 3. Склонируйте себе репозиторий и запустите TICK-стэк, используя технологии docker и docker-compose.
 
